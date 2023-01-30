@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matricularme</title>
+  </head>
+  <body>
+    <section>
+        <article>
+      <form action="micorreo@servidor.com" method="post">
+        <fieldset>
+          <legend>Acceso de Usuarios</legend>
+          <label for="user">Nombre de Usuario: </label
+          ><input type="text" name="Nombre de Usuario" id="user" /><br />
+          <label for="password">Contrase&ntilde;a de paso: </label
+          ><input type="password" name="Contraseña de paso" id="password" />
+        </fieldset>
+        <fieldset>
+          <legend>Informaci&oacute;n de Usuario</legend>
+          <fieldset>
+            <legend>Formaci&oacute;n</legend>
+            <input type="checkbox" name="form" id="ESO" checked /><label
+              for="ESO"
+              >ESO</label
+            ><br />
+            <input type="checkbox" name="form" id="Bachillerato" /><label
+              for="Bachillerato"
+              >Bachillerato</label
+            ><br />
+            <input type="checkbox" name="form" id="CGM" /><label for="CGM"
+              >Ciclo de Grado Medio</label
+            ><br />
+            <input type="checkbox" name="form" id="CGS" /><label for="CGS"
+              >Ciclo de Grado Superior</label
+            ><br />
+            <input type="checkbox" name="Titulo Universitario" id="TU" /><label
+              for="TU"
+              >T&iacute;tulo Universitario
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Nacionalidad:</legend>
+            <label for="Española"
+              ><input
+                type="radio"
+                name="nac"
+                id="Española"
+                checked
+              />Española</label
+            ><br />
+            <label for="Extranjera">
+              <input type="radio" name="nac" id="Extranjera" />Extranjera</label
+            >
+          </fieldset>
+          <fieldset>
+            <legend>Domicilio:</legend>
+            <input type="radio" name="Dom" id="Andalucia" checked /><label
+              for="Andalucia"
+              >En Andaluc&iacute;a</label
+            ><br />
+            <input type="radio" name="Dom" id="Madrid" /><label for="Madrid"
+              >En Madrid</label
+            ><br />
+            <input type="radio" name="Dom" id="Res_España" /><label
+              for="Res_España"
+              >Resto de España</label
+            >
+          </fieldset>
+          <fieldset>
+            <legend>Destino que prefiere(Elige s&oacute;lo uno)</legend>
+            <select name="Destinos" id="Destinos" size="5">
+              <option value="#1">Beleares</option>
+              <option value="#2">Canarias</option>
+              <option value="#3">Ceuta o Melilla</option>
+              <option value="#4" selected>Pen&iacute;nsula</option>
+              <option value="#5">Fuera de España</option>
+            </select>
+          </fieldset>
+        </fieldset>
+        <fieldset>
+          <legend>Observaciones que desee hacer constar:</legend>
+          <textarea
+            name="Observaciones"
+            id="Observaciones"
+            cols="60"
+            rows="10"
+          ></textarea>
+        </fieldset>
+        <fieldset>
+          <legend>Zona de im&aacute;genes</legend>
+          <label for="foto">Selecciona un archivo con tu foto</label><br />
+          <input type="file" name="Foto" id="Foto" /><br />
+          <input
+            type="image"
+            src="../Ejercicio_3/imagen/pngwing.com.png"
+            alt="imagen"
+            width="60"
+          />
+        </fieldset>
+        <fieldset>
+          <legend>Zona de botones</legend>
+          <input type="button" value="Bot&oacute;n de prueba" />
+          <input type="reset" value="Restablecer" />
+          <input type="submit" value="Enviar consulta" />
+          <input
+            type="button"
+            name="Bot&oacute;n inaccesible"
+            value="Bot&oacute;n inaccesible"
+            disabled
+          />
+        </fieldset>
+      </form>
+    </article>
+    <hr>
+    </section>
+    <footer><a href="../Ejercicio_4/index.html">IES M&Aacute;LAGA</a></footer>
+  </body>
+</html>
