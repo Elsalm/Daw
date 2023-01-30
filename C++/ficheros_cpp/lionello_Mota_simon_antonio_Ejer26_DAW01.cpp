@@ -49,7 +49,7 @@ y si no lo encuentra pues muestra un mensajito y elimnia auxiliar.txt es decir n
         cout << "No he podido encontrar asesoria.txt" << endl;
         exit(1);
     }
-
+    
     while (getline(file, linea))
     {   
          stringstream cont(linea);

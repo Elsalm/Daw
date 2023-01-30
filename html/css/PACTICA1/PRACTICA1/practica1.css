@@ -1,0 +1,41 @@
+
+/*<link href="practica1.css" rel="stylesheet" type="text/css" />*/
+body{
+  margin: 0;
+  background-color: #CDE6FF;
+}
+#wrapper
+{
+  width: 100%;
+  background-image: url(./images/bg_body.png);
+  background-repeat: repeat-x;
+  height: 133px;
+  padding: 5.8em 1em 0;
+}
+h1, h2
+{
+  color: #C6A788;
+}
+h1
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5em;
+}
+h1+p
+{
+  color:#7795CD ;
+}
+h2{
+  background-image: url(./images/bullet_flower.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  border-bottom: white 0.01em solid;
+  font-size: 2em;
+  font-weight: 50;
+  padding-left: 2.5em;
+}
+p
+{
+  margin-left: 5.5em;
+  color: #6A707E;
+}
