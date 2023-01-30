@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Informaion sobre el producto</title>
+  </head>
+  <body>
+    <h2>Informaion sobre el producto</h2>
+    <form action="/php/insertar_subasta.php" method="post">
+      <fieldset>
+        <legend>datos basicos</legend>
+        <label for="Nombre">Nombre</label><br />
+        <input type="text" id="Nombre" maxlength="30" size="31" /><br />
+        <label for="desc">Descripcion</label><br />
+        <textarea name="Descripcion" id="desc" cols="30" rows="5"></textarea
+        ><br />
+        <label for="foto">Foto</label><br />
+        <input type="file" name="Foto" id="foto" /><br /><br />
+        <input type="checkbox" name="contador" id="contador" />Añadir Contador
+        de visitas
+      </fieldset>
+      <fieldset>
+        <legend>Datos &Eacute;conomicos</legend>
+        <label for="Precios">Precio </label
+        ><input type="text" name="Precio" id="Precios" maxlength="5" size="6" />
+        € &nbsp;&nbsp;&nbsp; 
+        <label for="Impuestos">Impuestos</label>
+        <select name="Impuestos" id="Impuestos">
+          <option value="4">4%</option>
+          <option value="7">7%</option>
+          <option value="16">16%</option>
+          <option value="25">25%</option>
+        </select> <br><br>
+        <label for="promo">Promoci&oacute;n</label><br>
+        <input type="radio" name="Ninguno" id="ning"> Ninguno <br>
+        <input type="radio" name="Transporte gratuito" id="Transporte"> Transporte <br>
+        <input type="radio" name="Descuento 5%" id="Descuento"> Descuento <br>
+      </fieldset>
+    </form>
+  </body>
+</html>

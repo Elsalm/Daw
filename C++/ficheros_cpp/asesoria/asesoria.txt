@@ -1,6 +1,6 @@
 1010 Paola.Andrea Mejia.Linares Malaga 30 Femenino Finanzas
 1020 Andres.Fernando Barrantes.Mora Cadiz 32 Masculino Inversion
-1030 Tania Moreno.Triana Sevilla 22 Femenino Contabilidad
+1030 Tania Moreno.Triana Sevilla 40 Femenino Contabilidad
 1040 Luis Calderon.Garcia Almeria 47 Masculino Administracion
 1050 Teresa Perez.Garcia Malaga 22 Femenino Administracion
 1060 Antonio.Luis Cansino.Osuna Malaga 53 Masculino Credito
