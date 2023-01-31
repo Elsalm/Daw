@@ -6,8 +6,8 @@ body
 }
 
 #wrapper{
-width: 960px;
-height: 1100px;
+width:60em;
+height: 68.75em;
 margin: 0 auto;
 background-color: white;
 }
@@ -15,8 +15,8 @@ background-color: white;
     margin: 0 auto -8em;
     background-image: url(./images/bg_main.jpg);
     background-repeat: no-repeat;
-    height: 271px;
-    width: 960px;
+    height: 13.5625em;
+    width: 60em;
    
 }
 #main{
