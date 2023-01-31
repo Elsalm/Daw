@@ -1,6 +1,6 @@
 body
 {
-    margin-left: 0;
+    margin: 0;
     color: goldenrod; 
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -16,6 +16,7 @@ p
     margin-left: 2em;
     color:orange;}
 
+<<<<<<< HEAD
 @media screen and (max-width:1023px) {
     #wrapper {width: 100%;}
     body{width: 100%;}
@@ -30,3 +31,32 @@ p
         p{border-left: none;
             padding-left: 0em;}
 }
+=======
+@media screen and (min-width:768px) and (max-width:1023px) {
+    #wrapper {width: 100%;}
+    body{width: 100%;}
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    #wrapper p{width: 100%;}
+    body{width:100%}
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media  screen and (min-width:1024px) {
+    body{width:100%}
+    #wrapper{
+        width: 100%;
+        margin: 0 auto;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+>>>>>>> 61e66962a3637393b7fd332c4cca9fcc51e9ba96
