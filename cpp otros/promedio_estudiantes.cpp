@@ -21,7 +21,9 @@ void control(double &i);
 
 /*fincion principal(main)*/
 int main()
-{ /*llamo a la estructuras*/
+{ //uso esto para permitir al program imprimir caracteres especiales
+    setlocale(LC_ALL,"es_ES");
+    /*llamo a la estructuras*/
     do
     {
         cout << "Programa que hace el promedio de tres notas" << endl;
