@@ -158,7 +158,8 @@ void editar(string codigo)
         }
     }
 }
-void menu()/*y este es un menu too guapo :)*/
+/*y este es un menu too guapo :)*/
+void menu()
 {
     int op;
     do
