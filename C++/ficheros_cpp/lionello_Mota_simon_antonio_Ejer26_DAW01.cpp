@@ -97,7 +97,7 @@ y luego hace un cout con los datos de los acesores*/
     cout << "---------------------------------------------------------------------------------------" << endl;
     while (getline(file,linea)){
        stringstream cont(linea);
-       cont>>codigo >> nombres >> apellidos >> ciudad >> edad >> genero >> consulta;
+       file>>codigo >> nombres >> apellidos >> ciudad >> edad >> genero >> consulta;
         
         camtam(nombres, apellidos, ciudad, genero);
 
