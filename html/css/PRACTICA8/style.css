@@ -1,0 +1,44 @@
+#content
+{ display: flex;
+    justify-content: espace-evenly;
+    flex-flow: column;
+    border: 2px dotted grey;
+    border-bottom: none ;
+}
+h1{   border-bottom: 2px dotted grey;
+margin: 0 0;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: lighter;
+color: #15617A;
+}
+
+#gallery{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1em;
+  
+   
+}
+div.figure{text-align: center;
+width: 200px;}
+.figure .photo
+{
+    border: ridge 4px;
+    width: 200px;
+    height: 200px;
+}
+.figure p{font-size: .8em;  margin-top: 0.5em;
+font-family: Arial, Helvetica, sans-serif;}
+.copyright
+{
+    border-top: 2px dotted grey;
+    color: gray;
+    font-size: 1em;
+}
+@media screen and (max-width:767px) {
+    #gallery{
+        justify-content: center;
+    }
+    h1{text-align: center;}
+    p{font-size: 1.4em; text-align: left; padding: 0 1em;}
+}
