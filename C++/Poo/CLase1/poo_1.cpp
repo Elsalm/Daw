@@ -16,7 +16,7 @@ void pintar();
     Automovil();
     void arrancar();
     void acelerar();
-    void acelerar(int a);
+    void acelerar(int a);//sobrecarga uwu (0j-);
     void apagar();
     ~Automovil();
 };

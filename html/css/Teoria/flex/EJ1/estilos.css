@@ -1,0 +1,41 @@
+.contenedor{
+    
+    border:1px solid red;
+    display: flex;
+    flex-flow: row nowrap;
+   
+    justify-content:flex-start;
+  align-items: center;
+    }
+.elemento{
+    width: 20%;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    height: 100px;
+    
+    }
+.elemento:first-child{
+    background-color: rgb(91, 91, 248);font-size: 6em;
+}
+.elemento:nth-child(2){
+    background-color: rgb(124, 124, 248);font-size: 4em;
+    
+}
+.elemento:nth-child(3){
+    background-color: rgb(149, 149, 246); font-size: .5em;
+    align-self: flex-start;
+}
+
+.elemento:nth-child(4){
+    background-color: rgb(179, 179, 247) ; font-size: 1em;
+}
+.elemento:nth-child(5){
+    background-color: rgb(208, 208, 251);
+}
+.elemento:nth-child(6){
+    background-color: rgb(202, 202, 216);
+}
+.elemento:last-child{
+    background-color: rgb(160, 159, 160);
+}
